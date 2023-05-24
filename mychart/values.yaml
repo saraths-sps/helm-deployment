@@ -5,10 +5,10 @@
 replicaCount: 1
 
 image:
-  repository: prabhat8051/spring-boot-helm-demo
+  repository: sarathsps123/helm-deployment
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "spring-boot-helm-demo"
+  tag: "1"
 
 imagePullSecrets: []
 nameOverride: ""
@@ -37,8 +37,8 @@ securityContext: {}
   # runAsUser: 1000
 
 service:
-  type: LoadBalancer
-  port: 80
+  type: NodePort
+  port: 8080
 
 ingress:
   enabled: false
