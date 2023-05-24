@@ -8,7 +8,7 @@ image:
   repository: prabhat8051/spring-boot-helm-demo
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "1.0.0"
+  tag: "spring-boot-helm-demo"
 
 imagePullSecrets: []
 nameOverride: ""
