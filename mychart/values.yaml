@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: sarathsps123/helm-deployment
+  repository: sarathsps123/trail
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "1"
